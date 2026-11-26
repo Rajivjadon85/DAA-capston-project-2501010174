@@ -1,0 +1,140 @@
+{
+  "sorting_benchmark": {
+    "sizes": [
+      20,
+      50,
+      100,
+      200,
+      400,
+      800
+    ],
+    "merge_sort_ms": [
+      0.0537,
+      0.0746,
+      0.168,
+      0.3888,
+      0.8882,
+      1.9494
+    ],
+    "quick_sort_ms": [
+      0.0366,
+      0.0381,
+      0.0852,
+      0.1744,
+      0.42,
+      0.9486
+    ],
+    "insertion_sort_ms": [
+      0.0364,
+      0.0974,
+      0.3801,
+      1.3636,
+      5.3884,
+      24.8138
+    ]
+  },
+  "pipeline_benchmark": [
+    {
+      "label": "XS (10p, 8n)",
+      "num_parcels": 10,
+      "num_nodes": 8,
+      "num_edges": 22,
+      "capacity": 20,
+      "selected_parcels": 7,
+      "unique_stops": 6,
+      "nn_tsp_distance_km": 224.1,
+      "two_opt_distance_km": 224.1,
+      "knapsack_1d_ms": 0.0142,
+      "sorting_ms": 0.0158,
+      "knapsack_dp_ms": 0.0337,
+      "dijkstra_nn_tsp_ms": 0.1199,
+      "two_opt_ms": 0.1344,
+      "total_ms": 0.3057
+    },
+    {
+      "label": "Small (30p, 15n)",
+      "num_parcels": 30,
+      "num_nodes": 15,
+      "num_edges": 48,
+      "capacity": 40,
+      "selected_parcels": 13,
+      "unique_stops": 9,
+      "nn_tsp_distance_km": 391.27,
+      "two_opt_distance_km": 304.09,
+      "knapsack_1d_ms": 0.0623,
+      "sorting_ms": 0.0464,
+      "knapsack_dp_ms": 0.1094,
+      "dijkstra_nn_tsp_ms": 0.239,
+      "two_opt_ms": 0.3946,
+      "total_ms": 0.7908
+    },
+    {
+      "label": "Med (60p, 25n)",
+      "num_parcels": 60,
+      "num_nodes": 25,
+      "num_edges": 81,
+      "capacity": 60,
+      "selected_parcels": 22,
+      "unique_stops": 14,
+      "nn_tsp_distance_km": 404.3,
+      "two_opt_distance_km": 376.66,
+      "knapsack_1d_ms": 0.1859,
+      "sorting_ms": 0.0984,
+      "knapsack_dp_ms": 0.2904,
+      "dijkstra_nn_tsp_ms": 0.5197,
+      "two_opt_ms": 0.8803,
+      "total_ms": 1.7901
+    },
+    {
+      "label": "Large (120p, 40n)",
+      "num_parcels": 120,
+      "num_nodes": 40,
+      "num_edges": 137,
+      "capacity": 100,
+      "selected_parcels": 29,
+      "unique_stops": 20,
+      "nn_tsp_distance_km": 526.06,
+      "two_opt_distance_km": 526.06,
+      "knapsack_1d_ms": 0.5862,
+      "sorting_ms": 0.2283,
+      "knapsack_dp_ms": 0.9134,
+      "dijkstra_nn_tsp_ms": 1.2866,
+      "two_opt_ms": 1.6691,
+      "total_ms": 4.0996
+    },
+    {
+      "label": "XL (250p, 60n)",
+      "num_parcels": 250,
+      "num_nodes": 60,
+      "num_edges": 197,
+      "capacity": 140,
+      "selected_parcels": 55,
+      "unique_stops": 34,
+      "nn_tsp_distance_km": 758.62,
+      "two_opt_distance_km": 653.25,
+      "knapsack_1d_ms": 1.7159,
+      "sorting_ms": 0.534,
+      "knapsack_dp_ms": 2.6541,
+      "dijkstra_nn_tsp_ms": 3.2295,
+      "two_opt_ms": 11.0448,
+      "total_ms": 17.4656
+    },
+    {
+      "label": "XXL (450p, 90n)",
+      "num_parcels": 450,
+      "num_nodes": 90,
+      "num_edges": 310,
+      "capacity": 200,
+      "selected_parcels": 82,
+      "unique_stops": 54,
+      "nn_tsp_distance_km": 885.03,
+      "two_opt_distance_km": 841.9,
+      "knapsack_1d_ms": 4.3828,
+      "sorting_ms": 1.0012,
+      "knapsack_dp_ms": 6.8121,
+      "dijkstra_nn_tsp_ms": 8.2217,
+      "two_opt_ms": 43.4611,
+      "total_ms": 59.5017
+    }
+  ]
+}

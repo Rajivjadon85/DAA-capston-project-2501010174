@@ -1,0 +1,17 @@
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+
+# Temporary Office lock files
+~$*.pptx
+~$*.docx
+~$*.xlsx
+
+# OS files
+.DS_Store
+Thumbs.db
